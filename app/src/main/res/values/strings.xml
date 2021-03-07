@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CloudChat</string>
+    <string name="write_message">Write message</string>
+    <string name="sign_in">Sign in</string>
+    <string name="msg_notification_channel_id" translatable="false">new message</string>
+    <string name="msg_notification_name" translatable="false">message</string>
+    <string name="notification_title">New message!</string>
+    <string name="snooze">snooze</string>
+    <string name="msg_notification_description">message description</string>
+    <string name="message_subscribe_failed">Failed to subscribe to topic</string>
+    <string name="message_subscribed">Subscribed to topic</string>
+</resources>

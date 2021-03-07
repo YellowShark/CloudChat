@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/chat_navigation.xml"
+    app:startDestination="@+id/destination_chat">
+
+    <fragment
+        android:id="@+id/destination_chat"
+        android:name="ru.yellowshark.cloudchat.ui.chat.ChatFragment"
+        android:label="ChatFragment" />
+    <fragment
+        android:id="@+id/destination_sign_in"
+        android:name="ru.yellowshark.cloudchat.ui.sign_in.SignInFragment"
+        android:label="SignInFragment" />
+</navigation>
